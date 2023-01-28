@@ -1,32 +1,26 @@
-/* Add a background color to the entire page */
 body {
     background-color: #f2f2f2;
 }
 
-/* Center the text on the page */
 .text {
     text-align: center;
 }
 
-/* Make the text larger and bold */
 .text h1 {
     font-size: 3em;
     font-weight: bold;
     color: #4d4d4d;
 }
 
-/* Add a box shadow to the text */
 .text {
     box-shadow: 2px 2px 2px #888888;
 }
 
-/* Add a hover effect to the text */
 .text:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 }
 
-/* Add a background image to the page */
 body::before {
     content: "";
     background-image: url('bg-image.jpg');
@@ -40,7 +34,6 @@ body::before {
     z-index: -1;
 }
 
-/* Add a margin and padding to the registration form */
 .form {
     margin: 50px auto;
     padding: 20px;
@@ -48,7 +41,6 @@ body::before {
     border-radius: 10px;
 }
 
-/* Style the form inputs */
 .form input[type="text"],
 .form input[type="email"],
 .form input[type="password"] {
@@ -59,7 +51,6 @@ body::before {
     border-radius: 4px;
 }
 
-/* Style the submit button */
 .form input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -70,7 +61,6 @@ body::before {
     cursor: pointer;
 }
 
-/* Add a hover effect to the submit button */
 .form input[type="submit"]:hover {
     background-color: #45a049;
 }
